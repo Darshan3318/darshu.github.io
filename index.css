@@ -1,0 +1,424 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    font-size: 20px;
+    text-align: center;
+}
+#nav h1{
+    font-size: 25px;
+}
+
+#nav ul{
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+}
+#menu{
+    max-width: 5%;
+    display: none;
+    padding-bottom: 2px;
+}
+#banner{
+    background:url('hero-2.jpg.webp') center/cover;
+    min-height: 500px;
+    color: aliceblue; 
+    text-align: left;
+    justify-content: center;
+    align-content: end;
+    padding-left: 40px;
+}
+#par2{
+    padding-bottom: 40px;
+    padding-top: 20px;
+    text-decoration: underline orangered;
+}
+
+#par1{
+    font-size: 13px;
+}
+#par{
+    font-size: 13px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+#banner h2{
+    font-size: 40px;
+}
+#banner h3{
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+#about p{
+    text-align: center;
+    font-size: 10px;
+}
+
+.src{
+    display: flex;
+    height: 200px;
+    width: calc(25% - 1*0px/2);
+    padding-top: 20px;
+    
+}
+
+#icons{
+    padding-top: 100px;
+    
+}
+
+#wha{
+    text-align: center;
+    color: orange;
+    font-size: 10px;
+}
+#dis{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+#irc{
+    display: flex;
+    padding: 40px 30px;
+    flex-wrap: wrap;
+    
+}
+.travel{
+    text-align: center;
+    width: calc(33% - 2*20px/3);
+    
+}
+#isiz{
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+.travel p{
+    font-size: 18px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+#news{
+    color: orange;
+    text-align: center;
+    font-size: 10px;
+
+}
+#our{
+    text-align: center;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+}
+#trip{
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap ;
+    gap: 20px;
+}
+
+.bca{
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    align-content: end;
+    padding-bottom: 10px;
+
+}
+.dse{
+    width: calc(33% - 2*20px/3);
+}
+.sec{
+    width: calc(50%  - 1*20px/2);
+}
+.trt{
+    /* background-color: orange; */
+    color: white;
+    display: inline-block;
+    padding: 13px 14px;
+   
+}
+.tre{
+    color: whitesmoke;
+    padding-left: 14px;
+    text-align: left;
+    padding-bottom: 6px;
+    font-size: 12px;
+}
+.date{
+    color: whitesmoke;
+    padding-left: 14px;
+    font-size: 12px;
+  
+}
+#About{
+    padding: 20px 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.dars{
+    width: calc(33% - 2*20px/2);
+}
+.us{
+    min-height: 150px;
+}
+#us h4{
+    font-size: 14px;
+    color:orange;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+#ouy{
+    min-height: 170px;
+}
+#us{
+    text-align: center;
+
+}
+.la{
+    font-size: 30px;
+}
+#lorem{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#txtimg{
+    padding-bottom: 80px;
+}
+#foot{
+    background-color: rgba(34, 39, 54,1);
+    color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+#navigation {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+#top{
+    font-size: 16px;
+    padding-right: 20px;
+}
+#roms{
+    color: rgba(153, 162, 166, 1);
+    padding-top: 10px;
+    padding-right: 20px;
+}
+#six{
+    font-size: 30px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+} 
+
+#we{
+    color: rgba(153, 162, 166, 1);
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+#ig{
+    display: flex;
+    gap: 20px;
+    padding-left: 40px;
+    background-color: rgba(30, 35, 49,1);
+    color: rgba(153, 162, 166, 1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#span{
+    background-color: orange;
+    color: whitesmoke;
+    padding: 3px 3px;
+    font-size: 13px;
+}
+@media screen and (max-width: 767px) {
+    #menu{
+        display: block;
+        padding-bottom: 20px;
+    }  
+    .desktop{
+        display: none;
+    }
+    #banner{
+        min-height: 500px;
+    }
+    .src{
+        display: flex;
+        height: 200px;
+        width: calc(100% - 0*0px/1);
+        padding-top: 20px;
+    }
+    .travel{
+        width:calc(100% - 0*20px/1);   
+        padding-top: 20px;
+    }
+    .dse{
+        width:calc(100% - 0*20px/1);   
+    }
+    .dars{
+        width:calc(100% - 0*20px/1);   
+    }
+  }
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
